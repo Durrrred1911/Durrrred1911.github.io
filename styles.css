@@ -10,7 +10,7 @@ header
 }
 .heading{
     color: #e25825;
-    font-size: 100px;
+    font-size: 30px;
 }
 .heading h1{
     text-align: center;
@@ -28,7 +28,7 @@ header
 }
 
 .nav-bar a{
-    font-size: 20px;
+    font-size: 30px;
     color: #7b3804;
 }
 
