@@ -2,7 +2,7 @@ body{
     margin:0px;
     padding:0px;
 }
-header{
+header
     width:100%;
     align-items: center;
     background-color: bisque;
@@ -10,7 +10,7 @@ header{
 }
 .heading{
     color: #e25825;
-    font-size: 30px;
+    font-size: 100px;
 }
 .heading h1{
     text-align: center;
