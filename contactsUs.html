@@ -2,6 +2,36 @@
     <head>
         <title>Contact Us</title>
         <link rel="stylesheet" href="styles.css">
+        <script>
+            function validate()
+            {
+                var username = document.signup.uname.value;
+                var firstname = document.sinup.fname.value;
+                var lastname = document.sinup.fname.value;
+                var password = document.singup.passw.value;
+                var cpassword = document.signup.cpassw.vlaue;
+
+                if(username=="" || firstname=="" || lastname=="" || password=="" || cpassword=="")
+                {
+                    alert("Fill in all the field")
+                }
+                else{
+                    if(password.length<8 || password.length>15)
+                        {
+                            alert("Password shoule be between 8-15 characters long")
+                        }
+                        else{
+                            if(passwprd != cpassword)
+                            {
+                                alert("Password and Confirm password should match")
+                            }
+                            else{
+                                alert("Form submitted successfully")
+                            }
+                        }
+                }
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -28,19 +58,19 @@
                             <td><input type="text" name="fname"/><br/></td>
                         </tr>
                         <tr>
-                            <td align="right"></td><label>Last Name:</label></td>
+                            <td align="right"><label>Last Name:</label></td>
                             <td><input type="text" name="lname"/><br/></td>
                         </tr>
                         <tr>
-                            <td align="right"></td><label>Password:</label></td>
+                            <td align="right"><label>Password:</label></td>
                             <td><input type="text" name="passw"/><br/></td>
                         </tr>
                         <tr>
-                            <td align="right"></td><label>Confirm Password:</label></td>
+                            <td align="right"><label>Confirm Password:</label></td>
                             <td><input type="text" name="cpassw"/><br/></td>
                         </tr>
                         <tr>
-                            <td colspan="2" align="center"><input type="submit"/></td>
+                            <td colspan="2" align="center"><input type="submit" onclick="validate();" value="Sign Up"/></td>
                         </tr>
                     <table>
                     </fieldset>
