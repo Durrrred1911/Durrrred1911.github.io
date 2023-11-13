@@ -74,7 +74,10 @@ footer{
     font-size: 50px;
 }
 .Tsushima {
-    font-size:20px
+    font-size:20px;
+    margin-left:10px;
+    margin-bottom: 260px;
+    margin-right:20px;
 }
 
 .Souls{
