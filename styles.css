@@ -83,7 +83,7 @@ footer{
 .Souls{
     font-size: 20px;
     margin-left:10px;
-    margin-bottom: 260px;
+    margin-bottom: 200px;
     margin-right:20px;
     margin-top:20px;
 }
@@ -101,7 +101,16 @@ footer{
     padding-bottom: 150px;
 
 }
-
+.dsSouls{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+}
+.sSouls{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+}
 
 .nav-bar .gamehub{
     font:oblique;
